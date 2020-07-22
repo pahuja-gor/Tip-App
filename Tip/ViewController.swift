@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipPercentageLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
-//    @IBOutlet weak var numPeopleTextField: UITextField!
-//    @IBOutlet weak var totalPerPersonLabel: UILabel!
+    @IBOutlet weak var numPeopleTextField: UITextField!
+    @IBOutlet weak var totalPerPersonLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,10 @@ class ViewController: UIViewController {
     @IBAction func onTap(_ sender: Any) {
 //        view.endEditing(false)
     }
+    
+//    func retrieveOriginalTotal() -> Double {
+//        return Double(totalLabel.text!) ?? 0.00
+//    }
     
     @IBAction func calculateTip(_ sender: Any) {
         
@@ -42,11 +46,12 @@ class ViewController: UIViewController {
         
     }
     
-//    @IBAction func splitBill(_ sender: Any) {
-//        let numPeople = Int(numPeopleTextField.text!) ?? 1
-//        let individualBill = total / numPeople
-//        totalPerPersonLabel.text = String(format: "%.2f", individualBill)
-//    }
+    @IBAction func splitBill(_ sender: Any) {
+        let preSplitTotal = Double(totalLabel.text!) ?? 0
+        let numPeople = Int(numPeopleTextField.text!) ?? 1
+        let individualBill = preSplitTotal / Double(numPeople)
+        totalPerPersonLabel.text = String(format: "%.2f", individualBill)
+    }
     
 //    override func viewWillAppear(_ animated: Bool) {
 //        super.viewWillAppear(animated)
