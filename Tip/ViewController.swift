@@ -25,7 +25,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTap(_ sender: Any) {
-        // Functionality for the Tap Gesture Recognizer object
+        /**
+         Dismisses the Keyboard once the View is tapped
+         */
+        
+        view.endEditing(true)
     }
     
     @IBAction func calculateTip(_ sender: Any) {
