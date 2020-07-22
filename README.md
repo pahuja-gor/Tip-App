@@ -4,7 +4,7 @@
 
 Submitted by: **Goral Pahuja**
 
-Time spent: **7** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -13,15 +13,17 @@ The following **required** functionality is complete:
 * [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [ Not Implemented Yet ] Settings page to change the default tip percentage.
+* [ Not Implemented Yet ] UI animations
+* [ Not Implemented Yet ] Remembering the bill amount across app restarts (if <10mins)
+* [ Not Implemented Yet ] Using locale-specific currency and currency thousands separators.
+* [ Not Implemented Yet ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+* [ Implemented ] Added a functionality to allow the user to split the bill between X number of friends
+* [ Implemented ] Replaced the UISegmentedControl object with a UISlider object
+* [ Implemented ] Changed the app's theme's colors to represent a Dark Theme
 
 ## Video Walkthrough 
 
@@ -33,7 +35,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I occurred while developing this app were:
+* Replacing the UISegmentedControl object with a UISlider object
+* Ensuring the dollar sign symbol stayed while the values changed
+* Rounding floats and doubles
 
 ## License
 
