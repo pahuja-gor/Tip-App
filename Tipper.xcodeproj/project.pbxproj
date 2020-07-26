@@ -13,8 +13,8 @@
 		04258CB624C7A50900111EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04258CB424C7A50900111EAD /* Main.storyboard */; };
 		04258CB824C7A50900111EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04258CB724C7A50900111EAD /* Assets.xcassets */; };
 		04258CBB24C7A50900111EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04258CB924C7A50900111EAD /* LaunchScreen.storyboard */; };
-		04258CC624C7A50900111EAD /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04258CC524C7A50900111EAD /* TipTests.swift */; };
-		04258CD124C7A50900111EAD /* TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04258CD024C7A50900111EAD /* TipUITests.swift */; };
+		04258CC624C7A50900111EAD /* TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04258CC524C7A50900111EAD /* TipperTests.swift */; };
+		04258CD124C7A50900111EAD /* TipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04258CD024C7A50900111EAD /* TipperUITests.swift */; };
 		047DC04E24CB6C83009A93BD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DC04D24CB6C83009A93BD /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +44,11 @@
 		04258CB724C7A50900111EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04258CBA24C7A50900111EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04258CBC24C7A50900111EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04258CC124C7A50900111EAD /* TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04258CC524C7A50900111EAD /* TipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTests.swift; sourceTree = "<group>"; };
+		04258CC124C7A50900111EAD /* TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04258CC524C7A50900111EAD /* TipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperTests.swift; sourceTree = "<group>"; };
 		04258CC724C7A50900111EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04258CCC24C7A50900111EAD /* TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04258CD024C7A50900111EAD /* TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipUITests.swift; sourceTree = "<group>"; };
+		04258CCC24C7A50900111EAD /* TipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04258CD024C7A50900111EAD /* TipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperUITests.swift; sourceTree = "<group>"; };
 		04258CD224C7A50900111EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047DC04D24CB6C83009A93BD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +83,8 @@
 			children = (
 				047DC04D24CB6C83009A93BD /* SettingsViewController.swift */,
 				04258CAD24C7A50900111EAD /* Tip */,
-				04258CC424C7A50900111EAD /* TipTests */,
-				04258CCF24C7A50900111EAD /* TipUITests */,
+				04258CC424C7A50900111EAD /* TipperTests */,
+				04258CCF24C7A50900111EAD /* TipperUITests */,
 				04258CAC24C7A50900111EAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				04258CAB24C7A50900111EAD /* Tipper.app */,
-				04258CC124C7A50900111EAD /* TipTests.xctest */,
-				04258CCC24C7A50900111EAD /* TipUITests.xctest */,
+				04258CC124C7A50900111EAD /* TipperTests.xctest */,
+				04258CCC24C7A50900111EAD /* TipperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,30 +113,30 @@
 			path = Tip;
 			sourceTree = "<group>";
 		};
-		04258CC424C7A50900111EAD /* TipTests */ = {
+		04258CC424C7A50900111EAD /* TipperTests */ = {
 			isa = PBXGroup;
 			children = (
-				04258CC524C7A50900111EAD /* TipTests.swift */,
+				04258CC524C7A50900111EAD /* TipperTests.swift */,
 				04258CC724C7A50900111EAD /* Info.plist */,
 			);
-			path = TipTests;
+			path = TipperTests;
 			sourceTree = "<group>";
 		};
-		04258CCF24C7A50900111EAD /* TipUITests */ = {
+		04258CCF24C7A50900111EAD /* TipperUITests */ = {
 			isa = PBXGroup;
 			children = (
-				04258CD024C7A50900111EAD /* TipUITests.swift */,
+				04258CD024C7A50900111EAD /* TipperUITests.swift */,
 				04258CD224C7A50900111EAD /* Info.plist */,
 			);
-			path = TipUITests;
+			path = TipperUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04258CAA24C7A50900111EAD /* Tip */ = {
+		04258CAA24C7A50900111EAD /* Tipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04258CD524C7A50900111EAD /* Build configuration list for PBXNativeTarget "Tip" */;
+			buildConfigurationList = 04258CD524C7A50900111EAD /* Build configuration list for PBXNativeTarget "Tipper" */;
 			buildPhases = (
 				04258CA724C7A50900111EAD /* Sources */,
 				04258CA824C7A50900111EAD /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Tip;
+			name = Tipper;
 			productName = Tip;
 			productReference = 04258CAB24C7A50900111EAD /* Tipper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04258CC024C7A50900111EAD /* TipTests */ = {
+		04258CC024C7A50900111EAD /* TipperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04258CD824C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipTests" */;
+			buildConfigurationList = 04258CD824C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipperTests" */;
 			buildPhases = (
 				04258CBD24C7A50900111EAD /* Sources */,
 				04258CBE24C7A50900111EAD /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				04258CC324C7A50900111EAD /* PBXTargetDependency */,
 			);
-			name = TipTests;
+			name = TipperTests;
 			productName = TipTests;
-			productReference = 04258CC124C7A50900111EAD /* TipTests.xctest */;
+			productReference = 04258CC124C7A50900111EAD /* TipperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04258CCB24C7A50900111EAD /* TipUITests */ = {
+		04258CCB24C7A50900111EAD /* TipperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04258CDB24C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipUITests" */;
+			buildConfigurationList = 04258CDB24C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipperUITests" */;
 			buildPhases = (
 				04258CC824C7A50900111EAD /* Sources */,
 				04258CC924C7A50900111EAD /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				04258CCE24C7A50900111EAD /* PBXTargetDependency */,
 			);
-			name = TipUITests;
+			name = TipperUITests;
 			productName = TipUITests;
-			productReference = 04258CCC24C7A50900111EAD /* TipUITests.xctest */;
+			productReference = 04258CCC24C7A50900111EAD /* TipperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04258CA624C7A50900111EAD /* Build configuration list for PBXProject "Tip" */;
+			buildConfigurationList = 04258CA624C7A50900111EAD /* Build configuration list for PBXProject "Tipper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04258CAA24C7A50900111EAD /* Tip */,
-				04258CC024C7A50900111EAD /* TipTests */,
-				04258CCB24C7A50900111EAD /* TipUITests */,
+				04258CAA24C7A50900111EAD /* Tipper */,
+				04258CC024C7A50900111EAD /* TipperTests */,
+				04258CCB24C7A50900111EAD /* TipperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04258CC624C7A50900111EAD /* TipTests.swift in Sources */,
+				04258CC624C7A50900111EAD /* TipperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04258CD124C7A50900111EAD /* TipUITests.swift in Sources */,
+				04258CD124C7A50900111EAD /* TipperUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		04258CC324C7A50900111EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04258CAA24C7A50900111EAD /* Tip */;
+			target = 04258CAA24C7A50900111EAD /* Tipper */;
 			targetProxy = 04258CC224C7A50900111EAD /* PBXContainerItemProxy */;
 		};
 		04258CCE24C7A50900111EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04258CAA24C7A50900111EAD /* Tip */;
+			target = 04258CAA24C7A50900111EAD /* Tipper */;
 			targetProxy = 04258CCD24C7A50900111EAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip.app/Tip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipper.app/Tipper";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip.app/Tip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipper.app/Tipper";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04258CA624C7A50900111EAD /* Build configuration list for PBXProject "Tip" */ = {
+		04258CA624C7A50900111EAD /* Build configuration list for PBXProject "Tipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04258CD324C7A50900111EAD /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04258CD524C7A50900111EAD /* Build configuration list for PBXNativeTarget "Tip" */ = {
+		04258CD524C7A50900111EAD /* Build configuration list for PBXNativeTarget "Tipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04258CD624C7A50900111EAD /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04258CD824C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipTests" */ = {
+		04258CD824C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04258CD924C7A50900111EAD /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04258CDB24C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipUITests" */ = {
+		04258CDB24C7A50900111EAD /* Build configuration list for PBXNativeTarget "TipperUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04258CDC24C7A50900111EAD /* Debug */,
