@@ -18,10 +18,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var numPeopleTextField: UITextField!
     @IBOutlet weak var totalPerPersonLabel: UILabel!
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        tipPercentageSlider.value = Float(defaults.integer(forKey: "defaultTip"))
+        tipPercentageLabel.text = String(defaults.integer(forKey: "defaultTip")) + "%"
+        numPeopleTextField.text = String(defaults.integer(forKey: "defaultSplit"))
     }
     
     @IBAction func onTap(_ sender: Any) {
@@ -35,6 +39,8 @@ class ViewController: UIViewController {
     @IBAction func calculateTip(_ sender: Any) {
         /**
          Calculates the tip and total using the "Bill" value from the Text Field object and the "Tip Percentage" value from the Slider object.
+         
+         Splits the total bill by the number of people attending the restaurant, in order to calculate the amount each person needs to pay
          */
         
         // Get the bill amount
@@ -53,18 +59,11 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
-    }
-    
-    @IBAction func splitBill(_ sender: Any) {
-        /**
-         Splits the total bill by the number of people attending the restaurant, in order to calculate the amount each person needs to pay
-         */
-        
         let preSplitTotal = Double(totalLabel.text!.replacingOccurrences(of: "$", with: "")) ?? 0
         let numPeople = Int(numPeopleTextField.text!) ?? 1
         let individualBill = preSplitTotal / Double(numPeople)
         
         totalPerPersonLabel.text = String(format: "$%.2f", individualBill)
+        
     }
-    
 }
