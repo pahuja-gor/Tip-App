@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04258CAB24C7A50900111EAD /* Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04258CAB24C7A50900111EAD /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04258CAE24C7A50900111EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04258CB024C7A50900111EAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04258CB224C7A50900111EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		04258CAC24C7A50900111EAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04258CAB24C7A50900111EAD /* Tip.app */,
+				04258CAB24C7A50900111EAD /* Tipper.app */,
 				04258CC124C7A50900111EAD /* TipTests.xctest */,
 				04258CCC24C7A50900111EAD /* TipUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 			);
 			name = Tip;
 			productName = Tip;
-			productReference = 04258CAB24C7A50900111EAD /* Tip.app */;
+			productReference = 04258CAB24C7A50900111EAD /* Tipper.app */;
 			productType = "com.apple.product-type.application";
 		};
 		04258CC024C7A50900111EAD /* TipTests */ = {
@@ -444,8 +444,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.Tip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.Tipper;
+				PRODUCT_NAME = Tipper;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,8 +461,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.Tip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.Tipper;
+				PRODUCT_NAME = Tipper;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
