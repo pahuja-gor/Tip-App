@@ -45,11 +45,8 @@ class SettingsViewController: UIViewController {
     
     @IBAction func updateDefaultSplit(_ sender: Any) {
         let defaultSplit = Int((sender as! UITextField).text!) ?? 1
-//        defaultSplitTextField.text = String(defaultSplit)
         defaultSplitLabel.text = "Num. of People: " + String(defaultSplit)
         defaults.set(defaultSplit, forKey: "defaultSplit")
-        
-//        print(defaultSplitLabel.text)
         
     }
     

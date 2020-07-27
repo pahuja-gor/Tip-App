@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var billAmountTextField: UITextField!
     @IBOutlet weak var tipPercentageLabel: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
-//    @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var tipPercentageSlider: UISlider!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var numPeopleTextField: UITextField!
@@ -52,7 +51,6 @@ class ViewController: UIViewController {
         
         // Calculate the tip and total
         let tip = bill * Double(tipPercentage)
-        //        let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
         
         // Update the tip and total labels
