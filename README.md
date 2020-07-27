@@ -1,10 +1,10 @@
-# Pre-work - *Tip*
+# Pre-Work - *Tipper*
 
-**Tip** is a tip calculator application for iOS.
+**Tipper** is a tip calculator application for iOS.
 
 Submitted by: **Goral Pahuja**
 
-Time spent: **10** hours spent in total
+Time spent: **14** hours spent in total
 
 ## User Stories
 
@@ -13,23 +13,26 @@ The following **required** functionality is complete:
 * [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ Not Implemented Yet ] Settings page to change the default tip percentage.
-* [ Not Implemented Yet ] UI animations
-* [ Not Implemented Yet ] Remembering the bill amount across app restarts (if <10mins)
-* [ Not Implemented Yet ] Using locale-specific currency and currency thousands separators.
-* [ Not Implemented Yet ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Settings page to change the default tip percentage.
+* [ ] UI animations
+* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Using locale-specific currency and currency thousands separators.
+* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-* [ Implemented ] Added a functionality to allow the user to split the bill between X number of friends
-* [ Implemented ] Replaced the UISegmentedControl object with a UISlider object
-* [ Implemented ] Changed the app's theme's colors to represent a Dark Theme
+* [X] Added a functionality to allow the user to split the bill between ***X*** number of friends
+* [X] Replaced the UISegmentedControl object with a UISlider object
+* [X] Changed the app's theme's colors to represent a Dark Theme
+* [X] Added a Launch/Splash Screen
+* [X] Added an App Icon
+* [X] Added the ability to change the default number of people to split the bill between
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/cCldMec5mN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/3Wliss1Mbh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Recordit](http://recordit.co/).
 
@@ -38,6 +41,7 @@ GIF created with [Recordit](http://recordit.co/).
 Some challenges I occurred while developing this app were:
 * Replacing the UISegmentedControl object with a UISlider object
 * Ensuring the dollar sign symbol stayed while the values changed
+* Creating the Settings page
 * Rounding floats and doubles
 
 ## License
