@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				047DC04D24CB6C83009A93BD /* SettingsViewController.swift */,
-				04258CAD24C7A50900111EAD /* Tip */,
+				04258CAD24C7A50900111EAD /* Tipper */,
 				04258CC424C7A50900111EAD /* TipperTests */,
 				04258CCF24C7A50900111EAD /* TipperUITests */,
 				04258CAC24C7A50900111EAD /* Products */,
@@ -99,7 +99,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04258CAD24C7A50900111EAD /* Tip */ = {
+		04258CAD24C7A50900111EAD /* Tipper */ = {
 			isa = PBXGroup;
 			children = (
 				04258CAE24C7A50900111EAD /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				04258CB924C7A50900111EAD /* LaunchScreen.storyboard */,
 				04258CBC24C7A50900111EAD /* Info.plist */,
 			);
-			path = Tip;
+			path = Tipper;
 			sourceTree = "<group>";
 		};
 		04258CC424C7A50900111EAD /* TipperTests */ = {

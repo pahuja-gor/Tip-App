@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Tip
+//  Tipper
 //
 //  Created by Goral Pahuja on 7/21/20.
 //  Copyright © 2020 CodePath. All rights reserved.
