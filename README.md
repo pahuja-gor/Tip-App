@@ -28,11 +28,13 @@ The following **additional** features are implemented:
 * [X] Added an App Icon
 * [X] Added the ability to change the default number of people to split the bill between
 
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/3Wliss1Mbh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Tipper App Demo](demo/tipper_gif.gif)
+
+<!-- <img src='http://g.recordit.co/3Wliss1Mbh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> -->
 
 GIF created with [Recordit](http://recordit.co/).
 
